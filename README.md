@@ -3,7 +3,7 @@
 - 分Debug和Release两种模式，可直接通过IDE改变版本。Release模式下不提供死锁检测，但会辅助管理锁，比如依然可以用字符串自定义锁名。
 - 检测出死锁时会直接Crash程序，并且将导致死锁的原因打印在日志里
 
-- 用LockChecker管理锁库
+- 用LockController管理锁库
 
         private static void Lock(LockController lockController, string thread1)
         {
