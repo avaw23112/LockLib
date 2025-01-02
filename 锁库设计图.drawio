@@ -1,0 +1,510 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="HkfVP366TAtfJHnK7z5z">
+    <mxGraphModel dx="1418" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oMLxjYcsaGtdKWwgXaib-6" value="查前给锁对象上锁" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1679.75" y="1260" width="140.25" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-115" value="上锁操作" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1830" y="1380" width="670" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="oMLxjYcsaGtdKWwgXaib-10" value="给锁对象上锁" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1834.63" y="1385" width="130.25" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-114" value="对自己的线程对象上锁&lt;div&gt;解锁操作&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="2597.5" y="1810" width="592.5" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-87" value="对自己的线程对象上锁" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1839.75" y="1975" width="600.25" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="oMLxjYcsaGtdKWwgXaib-9" value="给锁对象上锁" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="2610" y="1830" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-83" value="对所检查的线程对象上锁" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;align=left;textDirection=vertical-lr;" parent="1" vertex="1">
+          <mxGeometry x="1659.75" y="1620" width="160" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-82" value="对自己的线程对象上锁" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1844.75" y="1700" width="595.25" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-1" target="lmaVWzQaq-2O7BfzCjOa-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-1" value="锁集与死锁检测系统" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-2" target="lmaVWzQaq-2O7BfzCjOa-98" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-2" target="lmaVWzQaq-2O7BfzCjOa-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="430" />
+              <mxPoint x="740" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-2" value="锁集管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-4" target="lmaVWzQaq-2O7BfzCjOa-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-4" target="lmaVWzQaq-2O7BfzCjOa-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="580" />
+              <mxPoint x="910" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-4" value="锁集存储" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-5" value="代码块锁（智能锁）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-6" target="lmaVWzQaq-2O7BfzCjOa-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-6" value="自主控制锁" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-7" value="读写锁" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="850" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-8" value="需求分析：&lt;div&gt;1.自动化管理锁集&lt;/div&gt;&lt;div&gt;2.自动检测死锁发生，并打印日志与报错&lt;/div&gt;&lt;div&gt;3.对外接口友好&lt;/div&gt;&lt;div&gt;4.实现代码块锁，个体锁，读写锁&lt;/div&gt;&lt;div&gt;5.性能要好，内存占用要低&lt;/div&gt;&lt;div&gt;6.不是全局锁，锁系统需要单独成为一个对象。可以由外界制造全局对象。&lt;/div&gt;&lt;div&gt;7.可控的两模式，Debug模式和Release模式，Release模式下禁用一切死锁检测代码。只做锁存储管理。&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="10" width="440" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-17" value="问题域研究&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.死锁的判定：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;导致死锁的原因有两个：&lt;/div&gt;&lt;div&gt;1.循环等待&lt;/div&gt;&lt;div&gt;2.上锁顺序错乱&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1，死锁检测如何实现？&lt;br&gt;&lt;/div&gt;&lt;div&gt;实现算法如下&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3.死锁的顺序跟踪&lt;/div&gt;&lt;div&gt;一，上锁顺序错乱导致死锁的错误提示&lt;/div&gt;&lt;div&gt;根据已经取得的两个线程对象，获取它们的上锁顺序与预备锁对象，打印如下内容&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;打印：&lt;/div&gt;&lt;div&gt;线程1：&lt;span style=&quot;background-color: initial;&quot;&gt;【上锁顺序A-&amp;gt;B】=预备&amp;gt;C，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;线程2：【上锁顺序C】=&lt;span style=&quot;background-color: initial;&quot;&gt;预备&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;A&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;线程1的预备锁已经被线程2持有！&lt;/span&gt;&lt;/div&gt;&lt;div&gt;线程2的预备锁已经被线程1持有！&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;线程1与线程2持锁顺序不相容！&lt;/div&gt;&lt;div&gt;死锁类型：顺序错乱&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;二，循环等待导致死锁的错误提示&lt;/div&gt;&lt;div&gt;根据等待集合中的线程对象，获取它们的上锁顺序与预备锁对象，如下打印消息：&lt;/div&gt;&lt;div&gt;打印：&lt;/div&gt;&lt;div&gt;线程ID：【所持锁顺序集合A-&amp;gt;B-&amp;gt;...】=&lt;span style=&quot;background-color: initial;&quot;&gt;预备&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;C&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;，对锁C的等待导致饥饿&lt;/span&gt;&lt;/div&gt;&lt;div&gt;线程ID：【...】=&amp;gt;...&lt;span style=&quot;background-color: initial;&quot;&gt;，对锁...的等待导致饥饿&lt;/span&gt;&lt;/div&gt;&lt;div&gt;死锁类型：循环等待&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="200" width="440" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-29" value="上锁顺序错乱检测算法：&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;数据域：需要维护线程对象，并在该对象内内置一个锁集合存储它已经获取的锁（有序集合），以及一个预备锁对象，一个等待状态标识。&lt;/div&gt;&lt;div&gt;锁对象维护一个当前持有线程名，一个是否上锁的标识&lt;/div&gt;&lt;div&gt;外界维护一个线程名与线程对象的字典&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;算法：&lt;/div&gt;&lt;div&gt;算法需要的对象&lt;/div&gt;&lt;div&gt;1.锁对象&lt;/div&gt;&lt;div&gt;返回值&lt;/div&gt;&lt;div&gt;void&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="870" width="419.5" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-31" target="lmaVWzQaq-2O7BfzCjOa-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-31" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1709.75" y="1170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-32" target="lmaVWzQaq-2O7BfzCjOa-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-32" value="检查想获取的对象是否已经上锁" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1689.75" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-34" target="lmaVWzQaq-2O7BfzCjOa-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1749.75" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-49" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lmaVWzQaq-2O7BfzCjOa-36" vertex="1" connectable="0">
+          <mxGeometry x="-0.5082" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-34" target="lmaVWzQaq-2O7BfzCjOa-124" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1969.75" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-38" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lmaVWzQaq-2O7BfzCjOa-37" vertex="1" connectable="0">
+          <mxGeometry x="-0.4122" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-34" value="上锁与否" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1709.75" y="1400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-39" target="lmaVWzQaq-2O7BfzCjOa-45" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2079.75" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-39" value="给该锁的标识修改成已上锁，并将自己的线程名填入" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1970" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-256" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-45" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2240" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-45" value="将该锁加入自己的锁集中" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="2100" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-46" target="lmaVWzQaq-2O7BfzCjOa-128" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2610.0526315789475" y="1870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-46" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="2530" y="1400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1749.75" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-48" value="根据锁对象的线程号，去字典里搜索出该线程对象" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1689.75" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-51" target="lmaVWzQaq-2O7BfzCjOa-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-51" value="检查该线程对象是否处于等待状态" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1679.75" y="1630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-52" target="lmaVWzQaq-2O7BfzCjOa-56" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1909.75" y="1770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-55" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lmaVWzQaq-2O7BfzCjOa-54" vertex="1" connectable="0">
+          <mxGeometry x="-0.1826" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1739.75" y="1890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-71" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lmaVWzQaq-2O7BfzCjOa-70" vertex="1" connectable="0">
+          <mxGeometry x="-0.3623" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-52" value="是否等待" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1699.75" y="1730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-56" target="lmaVWzQaq-2O7BfzCjOa-61" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2039.75" y="1770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-56" value="将自己设置成等待状态" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1869.75" y="1740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-60" value="是否需要等待状态？&lt;div&gt;1.怎么解决还没来及获取等待状态时，就被判定为不等待？这样依然会导致死锁，而且根本无法实现检测死锁的功能。在真正获取锁之前，给线程对象锁定即可。&lt;/div&gt;&lt;div&gt;2.怎么解除等待状态？&lt;/div&gt;&lt;div&gt;用Monitor配合using与IsDispose接口就能实现解除&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1910" y="1590" width="450" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-61" target="lmaVWzQaq-2O7BfzCjOa-153" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-61" value="将该锁设置成自己的预备锁" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="2000" y="1740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-67" target="lmaVWzQaq-2O7BfzCjOa-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2570" y="1770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-67" value="上锁操作" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="1740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-72" target="lmaVWzQaq-2O7BfzCjOa-73" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-72" value="检查该线程对象的预备锁是否存在于自己的锁集" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1679.75" y="1890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-73" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1739.75" y="2140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-77" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lmaVWzQaq-2O7BfzCjOa-75" vertex="1" connectable="0">
+          <mxGeometry x="-0.124" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-73" target="lmaVWzQaq-2O7BfzCjOa-89" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1859.75" y="2040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1839.75" y="2040" />
+              <mxPoint x="1839.75" y="2040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-81" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lmaVWzQaq-2O7BfzCjOa-80" vertex="1" connectable="0">
+          <mxGeometry x="-0.2754" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-73" value="是否存在" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1699.75" y="2000" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-76" target="lmaVWzQaq-2O7BfzCjOa-78" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-76" value="出现顺序死锁，Crash程序" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1669.75" y="2140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-78" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1689.75" y="2230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-89" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2034.75" y="2045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-89" value="将自己设置成等待状态" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1864.75" y="2015" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-91" target="lmaVWzQaq-2O7BfzCjOa-156" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-91" value="将该锁设置成自己的预备锁" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="2010" y="2015" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-93" target="lmaVWzQaq-2O7BfzCjOa-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2570" y="2045" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-93" value="上锁操作" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="2015" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-251" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-98" target="lmaVWzQaq-2O7BfzCjOa-250" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-98" value="锁操作与死锁检测" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-108" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="3210" y="1860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-110" value="Using的回调" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2700" y="1780" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-111" target="lmaVWzQaq-2O7BfzCjOa-108" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-111" value="解锁" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="3030" y="1870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-116" value="循环等待检测算法：&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;数据域：在外界维护一个等待线程的集合，存储已经进入等待的线程对象&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;算法：&lt;/div&gt;&lt;div&gt;将等待状态的线程对象维护成图结构，只要这个图不存在环路即不会出现死锁。&lt;/div&gt;&lt;div&gt;1.怎么维护成图结构消耗最低？&lt;/div&gt;&lt;div&gt;用一个等待线程集合存储图结构&lt;/div&gt;&lt;div&gt;2.怎么检测环路性能最好？&lt;/div&gt;&lt;div&gt;在加入等待集时，判断一下目标锁的持有线程是否已经存在与等待集中，如果已经存在，那么可判定为死锁。&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="1030" width="419.5" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-119" target="lmaVWzQaq-2O7BfzCjOa-120" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-119" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="1310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-120" target="lmaVWzQaq-2O7BfzCjOa-138" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-120" value="将当前线程对象加入等待线程集合中" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="1450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-124" target="lmaVWzQaq-2O7BfzCjOa-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-124" value="上锁" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1839.75" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-253" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2732.5" y="1900" as="sourcePoint" />
+            <mxPoint x="2832.5" y="1900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-128" value="&lt;div&gt;置锁为解锁状态&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="2620" y="1870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-134" value="检查该持有线程是否已经存在于等待线程集合中" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-136" target="lmaVWzQaq-2O7BfzCjOa-142" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-144" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lmaVWzQaq-2O7BfzCjOa-143" vertex="1" connectable="0">
+          <mxGeometry x="-0.3667" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-136" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="1810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-146" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lmaVWzQaq-2O7BfzCjOa-145" vertex="1" connectable="0">
+          <mxGeometry x="-0.1461" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-136" value="是否存在" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="1770" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-138" target="lmaVWzQaq-2O7BfzCjOa-134" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-138" value="根据预备锁的线程名从字典中取出对应线程对象" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-134" target="lmaVWzQaq-2O7BfzCjOa-136" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-142" target="lmaVWzQaq-2O7BfzCjOa-148" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-142" value="出现循环等待，Crash程序即可" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="1910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-148" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="2010" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-152" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="1770" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-153" target="lmaVWzQaq-2O7BfzCjOa-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-153" value="循环等待检测算法" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="2140" y="1740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-156" target="lmaVWzQaq-2O7BfzCjOa-93" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-156" value="循环等待检测算法" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="2150" y="2015" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-177" value="代码块锁其实就是在自主控制锁的基础上增加了自释放" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="665" y="795" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-178" value="生成时就在锁集中生成读写锁，额外另写接口即可适配读写锁" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="830" y="700" width="280" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-188" value="负责管理线程对象" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="270" y="490" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-189" value="外观组件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="660" y="325" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-190" value="负责管理线程等待对象" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="270" y="510" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-204" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-204" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="200" y="1280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-205" value="写锁的死锁检测算法" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="94.75" y="1220" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-271" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-211" target="lmaVWzQaq-2O7BfzCjOa-270" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-211" value="进行死锁检测算法" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-213" value="写读锁是否和普通锁相分离？&lt;div&gt;那么它们所设计的线程对象是否应该不同？&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;不需要不同，因为涉及的锁都不同&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="170" y="1060" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-250" value="线程对象管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-278" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-252" target="lmaVWzQaq-2O7BfzCjOa-111" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-252" value="从锁集中移除该锁" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="2820" y="1870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-261" value="读锁" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="450" y="1230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-264" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-262" target="lmaVWzQaq-2O7BfzCjOa-263" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-262" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="440" y="1290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-267" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-263" target="lmaVWzQaq-2O7BfzCjOa-266" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-263" value="上锁" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-269" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-266" target="lmaVWzQaq-2O7BfzCjOa-268" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-266" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="440" y="1530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-268" value="解锁" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="1690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-273" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-270" target="lmaVWzQaq-2O7BfzCjOa-272" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-270" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="200" y="1525" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-272" value="解锁操作" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="1690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-277" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="lmaVWzQaq-2O7BfzCjOa-111" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3030" y="1900" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d8qxzMFpJKjP2ZybCRb2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lmaVWzQaq-2O7BfzCjOa-295" target="d8qxzMFpJKjP2ZybCRb2-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-295" value="将当前线程对象置为等待结束，且从等待线程集合中移除" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="2220" y="1535" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-297" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-296" target="lmaVWzQaq-2O7BfzCjOa-295" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-300" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lmaVWzQaq-2O7BfzCjOa-297" vertex="1" connectable="0">
+          <mxGeometry x="-0.1111" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-299" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-296" target="lmaVWzQaq-2O7BfzCjOa-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-301" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lmaVWzQaq-2O7BfzCjOa-299" vertex="1" connectable="0">
+          <mxGeometry x="-0.5278" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-296" value="是否等待" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2240" y="1400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-303" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="lmaVWzQaq-2O7BfzCjOa-302" target="lmaVWzQaq-2O7BfzCjOa-128" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-302" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="2640" y="2060" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lmaVWzQaq-2O7BfzCjOa-304" value="手动解锁" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2680" y="2000" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMLxjYcsaGtdKWwgXaib-2" value="1.上锁操作：(需要取得锁，根据不同的锁选择不同上锁方法）&lt;div&gt;2.解锁操作&lt;/div&gt;&lt;div&gt;3.循环死锁检测&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;对每种锁都重载？&lt;/div&gt;&lt;div&gt;用策略模式区分每个锁的操作，进而可以用一个ILock接口完成上锁功能&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2030" y="1140" width="650" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d8qxzMFpJKjP2ZybCRb2-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8qxzMFpJKjP2ZybCRb2-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2510" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d8qxzMFpJKjP2ZybCRb2-1" value="将预备锁置空" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="2370" y="1535" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
